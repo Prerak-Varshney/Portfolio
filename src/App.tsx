@@ -1,19 +1,15 @@
 import './App.css'
-import Navbar from './components/utils/Navbar';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
-// import About from './components/About';
-// import Portfolio from './components/Portfolio';
-// import Footer from './components/Footer';
+import Cursor from './utils/Cursor';
 
 function App() {
   return (
-    <>
+    <div className='w-screen h-screen overflow-hidden'>
       <Navbar/>  
       <Home/>
-      {/* <About/>
-      <Portfolio/>
-      <Footer/> */}
-    </>
+      <Cursor/>
+    </div>
   )
 }
 
