@@ -264,51 +264,6 @@ const Home = () => {
         }
     };
 
-
-
-
-
-
-
-
-
-
-    //Swipe Events ¯\_(ツ)_/¯
-    // const [startY, setStartY] = useState(0);
-
-    // const handleTouchStart = (event) => {
-    //     const touch = event.touches[0];
-    //     setStartY(touch.clientY);
-    // };
-
-    // const handleTouchEnd = (event) => {
-    //     const touch = event.changedTouches[0];
-    //     const endY = touch.clientY;
-
-    //     const deltaY = startY - endY;
-    //     const threshold = 0;
-
-    //     if (deltaY > threshold) {
-    //         console.log('Swipe Up');
-    //     } else if (deltaY < -threshold) {
-    //         console.log('Swipe Down');
-    //     } else {
-    //         console.log('No significant swipe detected');
-    //     }
-    // };
-
-
-
-
-
-
-
-
-
-
-
-
-
     //About Explore Button Event /(シ)_/
     const buttonOnMouseOver = () => {
         if(toggleBoxButtonAnimation){

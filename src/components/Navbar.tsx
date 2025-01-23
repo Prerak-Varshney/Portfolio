@@ -4,10 +4,10 @@ import { useState, useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 interface NavbarProps {
-    homeButtonClicked: () => void;
-    portfolioButtonClicked: () => void;
-    aboutButtonClicked: () => void;
-    contactButtonClicked: () => void;
+    homeButtonClicked?: () => void;
+    portfolioButtonClicked?: () => void;
+    aboutButtonClicked?: () => void;
+    contactButtonClicked?: () => void;
 }
 
 const Navbar = ({ homeButtonClicked, portfolioButtonClicked, aboutButtonClicked, contactButtonClicked }: NavbarProps) => {
